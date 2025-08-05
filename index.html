@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart Pantry App</title>
+    <!-- TailwindCSS via CDN for quick styling -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Identity Services for Google sign-in -->
+    <script
+      src="https://accounts.google.com/gsi/client"
+      async
+      defer
+    ></script>
+    <!-- ZXing library for barcode scanning (loaded via CDN) -->
+    <script src="https://unpkg.com/@zxing/library@latest"></script>
+  </head>
+  <body class="bg-gray-100">
+    <div id="app" class="max-w-4xl mx-auto p-4"></div>
+    <script src="app.js"></script>
+  </body>
+</html>
